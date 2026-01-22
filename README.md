@@ -1,14 +1,26 @@
-Student Management System that allows administrators to manage student details, courses, attendance, and academic records using a user-friendly interface.
+Student Management System in C++
+A lightweight, console-based CRUD (Create, Read, Update, Delete) application built in C. This project demonstrates the use of structs, arrays, loops, and soft-deletion logic to manage student records efficiently.
 
--Technical / Resume-Friendly
+🚀 Features
+Add Student: Register new students with a unique auto-incrementing Roll Number.
+Display Records: View a list of all active student records.
+Soft Delete: Remove students by Roll Number using an active flag (preserves data integrity).
+Input Handling: Includes buffer clearing and string formatting to handle spaces in names.
 
-A Student Management System application designed to handle student data, course enrollment, and academic performance with secure and efficient data management.
+🛠️ How it Works
+The system uses a struct Student to organize data and a fixed-size array to store records.
+Field              Description
+rno         Unique identifier (Auto-incremented)
+name        Student's full name (up to 50 characters)
+std         The class/standard of the student
+marks       Academic score
+active     "Boolean flag (1 for active, 0 for deleted)"
 
--Beginner Project (College-friendly)
+📝 Usage Example
+Select Option 1 to enter student details like Name, Class, and Marks.
 
-A basic Student Management System project developed to perform CRUD operations on student records and simplify academic data handling.
+Select Option 2 to see the list of added students.
 
--used:
+Select Option 3 to "delete" a student. The program will ask for the Roll Number and mark that record as inactive.
 
-Language/Tech - C++
-Navigator - Vs Code
+Select Option 4 to exit
