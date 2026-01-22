@@ -2,7 +2,7 @@ Student Management System that allows administrators to manage student details, 
 
 -Technical / Resume-Friendly
 
-A Student Management System application designed to handle student data, course enrollment, attendance tracking, and academic performance with secure and efficient data management.
+A Student Management System application designed to handle student data, course enrollment, and academic performance with secure and efficient data management.
 
 -Beginner Project (College-friendly)
 
